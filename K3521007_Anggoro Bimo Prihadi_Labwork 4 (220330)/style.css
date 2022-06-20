@@ -1,0 +1,63 @@
+.judul{	
+	margin: 10px 15px;
+	padding: 5px 0;
+	background: cyan;
+	border-radius: 15px;
+}
+.h1{
+	color: blue;
+	text-align: center;
+	font-family: sans-serif;
+	text-shadow: 2px 2px #555
+}
+.menu{
+	margin: 10px 15px;
+	padding: 10px;
+	background: #ecfa91;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	column-gap: 12px;
+	border-radius:15px;
+}
+.submenu{
+	margin:10px;
+	padding:0 10px;
+	background: #90e07e;
+	grid-columns: 1 / span 3;
+}
+.submenu ul{
+	list-style-type: none;
+	padding: 10px;
+}
+.submenu li{
+	margin: 10px 0;
+	background: green;
+	padding: 10px;
+}
+.isi{
+	margin: 10px;
+	padding: 10px;
+	background: #90e07e;
+	grid-columns: 4 / span 9;
+}
+.isiimage{
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+}
+.isip{
+	color: #0b872c;
+}
+.footer{
+	margin: 10px 15px;
+	padding: 5px 0;
+	background: #e3b059;
+	border-radius: 15px;
+}
+.footer3{
+	color: #b03f25;
+	text-algin: center;
+	font-family: monospace;
+}
+	
+
